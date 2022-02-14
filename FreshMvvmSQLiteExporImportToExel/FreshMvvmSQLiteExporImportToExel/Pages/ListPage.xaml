@@ -3,9 +3,12 @@
                                xmlns="http://xamarin.com/schemas/2014/forms"
                                xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                                  x:Class="FreshMvvmSQLiteExporImportToExel.Pages.ListPage">
-    <ContentPage.Content>
-        <StackLayout>
-            
-        </StackLayout>
-    </ContentPage.Content>
+
+    <ListView ItemsSource="{Binding Users}" SelectedItem="{Binding SelectedUser}">
+        <ListView.ItemTemplate >
+            <DataTemplate>
+                <TextCell Text="{Binding UserName}" Detail="{Binding IsAdmin}" />
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </freshmvvm:FreshBaseContentPage>

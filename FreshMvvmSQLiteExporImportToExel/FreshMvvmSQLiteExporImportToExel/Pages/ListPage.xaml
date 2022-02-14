@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<freshmvvm:FreshBaseContentPage  xmlns:freshmvvm="clr-namespace:FreshMvvm;assembly=FreshMvvm"
+                               xmlns="http://xamarin.com/schemas/2014/forms"
+                               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                                 x:Class="FreshMvvmSQLiteExporImportToExel.Pages.ListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</freshmvvm:FreshBaseContentPage>
